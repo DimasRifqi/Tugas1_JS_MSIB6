@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Pegawai</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Nama Pegawai</th>
+          <th>Jabatan</th>
+          <th>Status</th>
+          <th>Gaji</th>
+          <th>Tunjangan Jabatan</th>
+          <th>BPJS</th>
+          <th>Tunjangan Keluarga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="namaPegawai"></td>
+          <td id="jabatan"></td>
+          <td id="status"></td>
+          <td id="gaji"></td>
+          <td id="tunjanganJabatan"></td>
+          <td id="BPJS"></td>
+          <td id="tunjanganKeluarga"></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="7" style="text-align: center">
+            <strong>Total Gaji</strong>
+          </th>
+        </tr>
+
+        <tr>
+          <td colspan="7" style="text-align: center" id="totalGaji"></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <script src="./JS/dataPegawai.js"></script>
+  </body>
+</html>
