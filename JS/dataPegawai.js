@@ -17,7 +17,7 @@ const tunjanganJabatan = 0.15 * gaji;
 const BPJS = 0.10 * gaji;
 
 var tunjanganKeluarga = status == "Menikah" ? 0.20 * gaji : 0;
-var totalGaji = gaji + tunjanganJabatan + BPJS + tunjanganKeluarga;
+var totalGaji = gaji + tunjanganJabatan - BPJS + tunjanganKeluarga;
 
 document.getElementById("namaPegawai").textContent = pegawai;
 document.getElementById("jabatan").textContent = jabatan;
