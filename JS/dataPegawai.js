@@ -16,7 +16,7 @@ if (jabatan == "Manager") {
 const tunjanganJabatan = 0.15 * gaji;
 const BPJS = 0.10 * gaji;
 
-var tunjanganKeluarga = status == "Menikah" ? 0.2 * gaji : 0;
+var tunjanganKeluarga = status == "Menikah" ? 0.20 * gaji : 0;
 var totalGaji = gaji + tunjanganJabatan + BPJS + tunjanganKeluarga;
 
 document.getElementById("namaPegawai").textContent = pegawai;
